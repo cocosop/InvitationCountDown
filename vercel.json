@@ -11,6 +11,11 @@
       ],
       "destination": "https://invitation-count-down.vercel.app",
       "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "https://invitation-count-down.vercel.app",
+      "permanent": false
     }
   ]
 }
