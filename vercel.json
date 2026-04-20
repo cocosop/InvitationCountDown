@@ -9,8 +9,8 @@
           "value": "casual-night-ab0k3"
         }
       ],
-      "destination": "/?redirected=true",
-      "permanent": false
+      "destination": "https://invitation-count-down.vercel.app",
+      "permanent": true
     }
   ]
 }
