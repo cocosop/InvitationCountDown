@@ -9,8 +9,8 @@
           "value": "casual-night-ab0k3"
         }
       ],
-      "destination": "/",
-      "permanent": true
+      "destination": "/?redirected=true",
+      "permanent": false
     }
   ]
 }
