@@ -1,6 +1,6 @@
 import { MapPin, Calendar, Clock } from 'lucide-react';
 import CountdownTimer from './CountDownTimer';
-import logo from './../assets/Logo1.png'
+import logo from './../assets/logo1.png'
 
 export default function EventPage() {
   return (
