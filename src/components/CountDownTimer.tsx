@@ -102,7 +102,7 @@ export default function CountdownTimer() {
       <p className="text-xs sm:text-sm tracking-[0.3em] uppercase" style={{ color: '#a88a2a' }}>
         La soirée commence dans
       </p>
-      <div className="flex items-start gap-2 sm:gap-6">
+      <div className="flex items-start gap-1 sm:gap-6">
         <Unit value={timeLeft.days} label="Jours" />
         <Separator />
         <Unit value={timeLeft.hours} label="Heures" />

@@ -119,7 +119,7 @@ export default function EventPage() {
         style={{ borderTop: '1px solid rgba(212,175,55,0.1)' }}
       >
         <p className="text-xs tracking-widest uppercase" style={{ color: '#4a3a08' }}>
-          &2026 Casual Nights by BassTechnologie — Tous droits reservés
+          &copy;2026 EIPICS by BassTechnologie — Tous droits reservés
         </p>
       </footer>
     </div>
