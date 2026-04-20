@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://sipping-event-tsum.vercel.app/?event=casual-night-ab0k3",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
