@@ -1,13 +1,28 @@
 import { MapPin, Calendar, Clock } from 'lucide-react';
 import CountdownTimer from './CountDownTimer';
 import logo from './../assets/logo1.png'
+import bg from './../assets/bgimg.jpeg'
 
 export default function EventPage() {
   return (
     <div
       className="min-h-screen w-full flex flex-col items-center justify-between relative overflow-hidden"
-      style={{ background: '#080600' }}
+     style={{ 
+    backgroundImage: `url(${bg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }}
+  
     >
+      {/* Overlay sombre global */}
+      <div className="absolute inset-0 bg-black/50" /> 
+      
+      {/* Dégradé du haut vers le bas (pour le header et footer) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/90" />
+      
+      {/* Dégradé radial pour faire ressortir le centre */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.4)_100%)]" />
       <Particles />
 
       <div className="absolute inset-0 pointer-events-none">
